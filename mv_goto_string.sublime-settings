@@ -1,0 +1,18 @@
+{
+	/*
+		Path can be a string, or an array of strings.  If it is an array of strings, the plugin will search all listed directories.
+		E.g. "path": "/home/username/public_html/"
+		E.g. "path": [ "/home/username/public_html/", "/home/username/other_folder", "/var/www/html" ]
+	*/
+	"path" 		: [ "/home/username/public_html" ],
+
+	/*
+		File types is an array of file extensions to search through.  Any file ending with the sepcificed extension will be searched.
+	*/
+	"file_types"	: [ ".mv", ".js" ],
+
+	/*
+		A flag that controls whether the search is done case sensitive
+	*/
+	"case_sensitive": true
+}
