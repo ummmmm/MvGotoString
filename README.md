@@ -12,3 +12,5 @@ OS X: ~/Library/Application Support/Sublime Text 3/Packages/
 Windows: %APPDATA%\Sublime Text 3\Packages\
 
 Rename the folder from MvGotoString-master to just MvGotoString
+
+You will need to update your user settings for this to work correctly.  Go to Preferences -> Package Settings -> Mv Goto String -> Default.  Copy those settings to the User settings file, updating the appropriate values.
